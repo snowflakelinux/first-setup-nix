@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "first-setup-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1663738174,
+        "narHash": "sha256-i2+xWm9Iy7trGR9pCC9cKWFu7z6WEStt7UmvXgu2B+4=",
+        "ref": "refs/heads/main",
+        "rev": "3e00b3366201ab6f636d93192b58c0d0aeabcb22",
+        "revCount": 78,
+        "type": "git",
+        "url": "https://github.com/Vanilla-OS/first-setup"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://github.com/Vanilla-OS/first-setup"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1663494472,
+        "narHash": "sha256-fSowlaoXXWcAM8m9wA6u+eTJJtvruYHMA+Lb/tFi/qM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f677051b8dc0b5e2a9348941c99eea8c4b0ff28f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "first-setup-src": "first-setup-src",
+        "nixpkgs": "nixpkgs",
+        "utils": "utils"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
